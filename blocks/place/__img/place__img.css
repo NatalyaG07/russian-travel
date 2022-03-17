@@ -1,22 +1,5 @@
 .place__img {
   grid-area: img;
   max-width: 460px;
-}
-
-@media screen and (max-width: 1024px) {
-  .place__img {
-    max-width: 440px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__img {
-    max-width: 340px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 500px) {
-  .place__img {
-    max-width: 300px;
-  }
+  width: 100%;
 }

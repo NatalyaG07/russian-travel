@@ -13,11 +13,18 @@
   position: relative;
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .cover__title {
     max-width: 288px;
     margin-bottom: 16px;
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .cover__title {
+    font-size: 42px;
+    line-height: 46px;
   }
 }

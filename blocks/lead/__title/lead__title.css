@@ -11,7 +11,15 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 501px) and (max-width: 767px) {
+  .lead__title {
+    font-size: 65px;
+    line-height: 65px;
+    max-width: 490px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
   .lead__title {
     font-size: 40px;
     line-height: 44px;

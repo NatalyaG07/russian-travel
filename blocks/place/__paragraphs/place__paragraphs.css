@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 400px) {
   .place__paragraphs {
     max-width: 288px;
   }

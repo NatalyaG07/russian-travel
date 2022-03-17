@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 610px) {
   .place {
     grid-template-areas:
       "header" 

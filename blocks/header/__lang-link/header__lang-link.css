@@ -15,10 +15,6 @@
   margin-right: 18px;
 }
 
-.header__lang-link:hover {
-  text-decoration-line: underline;
-}
-
 @media (min-width: 320px) and (max-width: 425px) {
   .header__lang-link {
     max-width: 22px;
